@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Search Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="logo container">
+      <p>movie<span>hub</span></p>
+    </div>
+
+    <div class="search-container container">
+      <div class="search-element">
+        <h3>Search Movie:</h3>
+        <input type="text" class="form-control" placeholder="Search Movie Title..." id="movie-search-box" />
+        <div class="search-list hide-search-list" id="search-list">
+          <!-- search results dynamically added here -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="result-container">
+        <div class="result-grid" id="result-grid">
+          <!-- Movie details will be injected here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
